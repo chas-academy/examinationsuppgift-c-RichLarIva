@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "name": "1. Grundläggande (Kompilering)",
+      "run": "bash .github/tests/test.sh compile",
+      "points": 20,
+      "required": false
+    },
+    {
+      "name": "2. Logik: Högst medelvärde",
+      "run": "bash .github/tests/test.sh logic_best",
+      "points": 15,
+      "required": false
+    },
+    {
+      "name": "3. Format: Stor bokstav (Högst)",
+      "run": "bash .github/tests/test.sh format_best",
+      "points": 15,
+      "required": false
+    },
+    {
+      "name": "4. Logik: Under medelvärde",
+      "run": "bash .github/tests/test.sh logic_below",
+      "points": 15,
+      "required": false
+    },
+    {
+      "name": "5. Format: Stor bokstav (Under)",
+      "run": "bash .github/tests/test.sh format_below",
+      "points": 15,
+      "required": false
+    },
+    {
+      "name": "6. Videopresentation (Fil finns)",
+      "run": "bash .github/tests/test.sh check_video",
+      "points": 20,
+      "required": false
+    }
+  ]
+}
