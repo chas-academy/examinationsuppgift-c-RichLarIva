@@ -1,7 +1,6 @@
 //Write your code in this file
 #include <stdio.h>
 #include <ctype.h>
-#include <string.h>
 
 #define STUDENTS 5
 #define TESTS 13
@@ -19,7 +18,7 @@ void fixName(char *name)
 
 int main()
 {
-    char names[STUDENTS][20];
+    char names[STUDENTS][10];
     int scores[STUDENTS][TESTS];
     double averages[STUDENTS];
 
